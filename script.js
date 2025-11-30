@@ -48,7 +48,7 @@ function addTaskToArry(taskText) {
 
   //Push task to array
   arrayOfTasks.push(taskDataObj);
-  console.log(arrayOfTasks);
+  // console.log(arrayOfTasks);
 
   //Add this task to page
   addElementsToPageFromArray(arrayOfTasks);
@@ -80,7 +80,7 @@ function addElementsToPageFromArray(arrayOfTasks) {
     //Add tasks and btn to Page
     newTask.appendChild(deleteCurrentTask);
     newTasksArea.appendChild(newTask);
-    console.log(newTask);
+    // console.log(newTask);
 
     // Add task whit enter key
   });
